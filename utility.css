@@ -1,0 +1,166 @@
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+.border{
+    border: solid #121212 2px;
+}
+.round-b{
+    border-radius: 10px;;
+}
+.round-b-top{
+    border-top-left-radius:  10px;
+    border-top-right-radius:  10px;
+}
+.round-b-bottom{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.icon{
+    width: 20px;
+    margin: 10px;
+}
+.icon-1{
+    margin-left:-15px;
+}
+.list{
+    list-style: none;
+    gap:10px;
+    
+}
+.invert{
+    filter: invert(1);
+}
+.padding{
+    padding:5px;
+}
+.padding-1{
+    padding: 20px;
+}
+.margin{
+    margin:5px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.min-height{
+    min-height: 69vh;
+}
+.min-height-1{
+    min-height: 7vh;
+}
+.min-height-2{
+    min-height: 89.5vh;
+}
+.min-height-3{
+    min-height: 16vh;
+}
+.background-1{
+    background-color: #121212;
+}
+.text-color{
+    color:rgb(255, 255, 255);
+}
+.card{
+  width:220px;
+  height: 280px;;
+  
+  color: white;
+
+}
+.image-set{
+  width: 220px;
+  height: 220px;
+  
+}
+
+
+
+/* Spotify-style scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Transparent background */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2d4335; /* Spotify green color */
+  border-radius: 10px; /* Rounded edges */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #93f2ab; /* Slightly lighter green on hover */
+}
+

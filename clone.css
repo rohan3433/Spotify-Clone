@@ -1,0 +1,169 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+.container{
+    display:flex;
+    background-color: black;
+    
+}
+.left{
+    width:25%;
+    height: 100%;   
+    gap: 5px;   
+    
+}
+
+
+.lower{
+    gap:10px;
+    position: relative;
+    background-color: #121212;
+
+}
+.lower-header{
+    display: flex;
+    position: absolute;
+    top:15px;
+    gap:10px;
+    
+}
+
+
+.footer{
+    gap:10px;
+    position:absolute;
+    bottom:0;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.right{
+    width:75%;
+    height:100%;
+    margin: 10px;
+    margin-left: 0px;
+    
+}
+
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    background-color: #121212;
+    
+}
+.login-signup{
+    margin-right:20px;
+    gap:5px;
+}
+.logo{
+    margin:5px;
+    margin-left: 10px;
+}
+#heading{
+    margin-top:7px;
+}
+.background-2{
+    background-color: rgb(31, 31,31);
+}
+.albums{
+    color: aliceblue;
+    margin: 5px;
+    padding:5px;
+}
+.playcard{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(31,31,31);
+    border-radius:10px;
+    gap:5px;
+}
+.image-set{
+    border-radius:10px;
+}
+.Playlist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-height:510px;
+    overflow: scroll;
+}
+.login-signup{
+    gap:10px;
+    
+}
+.login{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding:8px;
+    margin: 5px;;
+}
+.sign-up{
+    background-color: #121212;
+    color:grey;
+    margin-right: 10px;
+    padding:5px;
+    border-radius:5px;
+    
+}
+
+.login:hover{
+    color:white;       
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+   
+}
+
+.sign-up:hover{
+    color:white;       
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+   
+}
+
+.playbutton{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: grey;
+    gap:25px;
+}
+.playsong{
+    background-color: rgb(33, 33, 33);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top:60px;
+    width: 290px;
+    max-height: 345px;
+    height: 345px;
+    word-wrap: break-word; /*Allow wrapping of long words*/
+            white-space: normal;  /* Allow text to wrap normally*/
+            overflow: scroll;
+              
+}
+.playsong ul{
+    list-style-type: none;
+    color: aliceblue;
+    margin:0 12px;
+    padding:5px;
+    padding-left: 5px;
+    gap: 5px;     
+      
+ 
+}
+.playsong ul li{
+    margin: 10px;
+    padding: 5px;
+    margin-top: 0px;
+    
+}
+
