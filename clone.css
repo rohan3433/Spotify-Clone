@@ -146,8 +146,8 @@
     max-height: 345px;
     height: 345px;
     word-wrap: break-word; /*Allow wrapping of long words*/
-            white-space: normal;  /* Allow text to wrap normally*/
-            overflow: scroll;
+    white-space: normal;  /* Allow text to wrap normally*/
+    overflow: scroll;
               
 }
 .playsong ul{
